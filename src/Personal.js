@@ -41,6 +41,7 @@ export default class Personal extends React.Component{
         INITIAL_VALUE.postalCode= this.state.postalCode
         
         console.log(INITIAL_VALUE)
+        this.forceUpdate()
     
 
         //console.log(event.target)
